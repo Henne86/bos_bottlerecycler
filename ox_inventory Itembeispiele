@@ -1,0 +1,35 @@
+-- =========================================================================
+-- RECYCLING / PFANDGUT ITEMS (Für ox_inventory/data/items.lua)
+-- =========================================================================
+
+['empty_bottle_beer'] = {
+    label = 'Leere Bierflasche',
+    weight = 400, -- 400g (Glas ist schwerer!)
+    stack = true,
+    close = true,
+    description = 'Eine leere Glasflasche. Auf dem Etikett ist ein Pfandsymbol zu erkennen.'
+},
+
+['empty_bottle_plastic'] = {
+    label = 'Leere PET-Flasche',
+    weight = 50, -- 50g (Plastik ist leicht)
+    stack = true,
+    close = true,
+    description = 'Eine zerknitterte Plastikflasche. Bring sie zum Pfandautomaten, um die Umwelt zu schonen.'
+},
+
+['empty_can'] = {
+    label = 'Leere Pfanddose',
+    weight = 30, -- 30g (Aluminium)
+    stack = true,
+    close = true,
+    description = 'Eine leere, leicht eingedrückte Aluminiumdose. Bringt noch ein paar Cent Pfand.'
+},
+
+['pfand_crate_empty'] = {
+    label = 'Leere Pfandkiste',
+    weight = 1500, -- 1.5kg (Sperrig!)
+    stack = false, -- Kann nicht gestapelt werden, da sperrig
+    close = true,
+    description = 'Ein leerer Getränkekasten aus Kunststoff. Sammler nutzen ihn, um Flaschen im großen Stil zu transportieren.'
+},
