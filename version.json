@@ -1,5 +1,19 @@
 {
-    "version": "1.0.1",
-    "changelog": "Das ist in erster Linie ein Versionsupdate Test. \n- Fehlerbehebungen bei den Animationen und vollständige Entfernung der Kisten-Logik. \n- Ich werd da aber noch weiter dran rum basteln."
+    "version": "1.0.2",
+    "changelog": "v1.0.2 kommt später...",
+    
+    "history": [
+        {
+            "version": "1.0.1",
+            "date": "25.07.2026",
+            "changes": "Das ist in erster Linie ein Versionsupdate Test..."
+        },
+        {
+            "version": "1.0.0",
+            "date": "25.07.2026",
+            "changes": "Erstes offizielles Release auf Tebex..."
+        }
+    ]
 }
+
 
