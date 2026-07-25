@@ -33,3 +33,22 @@
     close = true,
     description = 'Ein leerer Getränkekasten aus Kunststoff. Sammler nutzen ihn, um Flaschen im großen Stil zu transportieren.'
 },
+['pfand_crate'] = {
+    label = 'Getränkekasten (Pfand)',
+    weight = 1500, -- 1.5 kg Eigengewicht
+    stack = false, -- Kisten sind sperrig, daher nicht stapelbar
+    close = true,
+    description = 'Ein stabiler Kasten für Flaschen. Per Rechtsklick kannst du ihn öffnen und mit bis zu 12 leeren Bierflaschen befüllen.',
+    
+    -- NEU: Macht das Item zu einer öffnungsfähigen Box
+    containers = {
+        slots = 12,       -- Genau 12 Plätze für Flaschen
+        maxWeight = 5000, -- Maximal 5 kg Gesamtgewicht (12x 400g Flaschen = 4.8kg + Kiste)
+        
+        -- WICHTIG: Hier erlauben wir NUR die leere Bierflasche! 
+        -- Es können keine Waffen oder Drogen hineingesteckt werden.
+        whitelist = {
+            'empty_bottle_beer'
+        }
+    }
+}
