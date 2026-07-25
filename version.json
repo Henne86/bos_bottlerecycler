@@ -1,8 +1,4 @@
 {
-  "version": "1.0.0",
-  "changelog": "Erster Release meines Pfandflaschen Scripts."
-},
-{
     "version": "1.0.1",
     "changelog": "Fehlerbehebungen bei den Animationen und vollständige Entfernung der Kisten-Logik für maximale Stabilität."
 }
