@@ -4,4 +4,8 @@ Mit diesem Recycling Sript kann man:
 	Blip umbenennen, 
 	die Währung und Animation ändern, 
 	verschiedene Items auswählen und 
-	den Text ändern.
+	den Text ändern.	
+
+	Für ESX, OX Inventar und OX Target.
+
+
